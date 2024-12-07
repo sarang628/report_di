@@ -2,7 +2,7 @@ package com.sarang.torang.di.report_di
 
 import androidx.compose.runtime.Composable
 import com.sarang.torang.BuildConfig
-import com.sryang.torang.compose.bottomsheet.share.ShareBottomSheetDialog
+import com.sarang.torang.compose.bottomsheet.share.ShareBottomSheetDialog
 import com.sryang.torang.compose.report.ReportModal
 
 fun provideReportModal(): @Composable (Int, onReported: () -> Unit) -> Unit =
