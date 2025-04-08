@@ -3,7 +3,7 @@ package com.sarang.torang.di.report_di
 import androidx.compose.runtime.Composable
 import com.sarang.torang.BuildConfig
 import com.sarang.torang.compose.bottomsheet.share.ShareModalBottomSheet
-import com.sryang.torang.compose.report.ReportModal
+import com.sarang.torang.compose.report.ReportModal
 
 fun provideReportModal(): @Composable (Int, onReported: () -> Unit) -> Unit =
     { reviewId, onReported ->

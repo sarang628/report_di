@@ -4,10 +4,10 @@ import com.sarang.torang.api.ApiReview
 import com.sarang.torang.api.handle
 import com.sarang.torang.repository.ReportReason
 import com.sarang.torang.repository.ReportRepository
-import com.sryang.torang.data.dto.ReviewDTO
-import com.sryang.torang.usecases.report.BlockUserUseCase
-import com.sryang.torang.usecases.report.LoadReviewUseCase
-import com.sryang.torang.usecases.report.ReportUseCase
+import com.sarang.torang.data.dto.ReviewDTO
+import com.sarang.torang.usecases.report.BlockUserUseCase
+import com.sarang.torang.usecases.report.LoadReviewUseCase
+import com.sarang.torang.usecases.report.ReportUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
