@@ -2,7 +2,7 @@ package com.sryang.torang.report.test.di.report_di
 
 import com.sarang.torang.api.ApiReview
 import com.sarang.torang.api.handle
-import com.sarang.torang.repository.ReportReason
+import com.sarang.torang.data.ReportReason
 import com.sarang.torang.repository.ReportRepository
 import com.sarang.torang.data.dto.ReviewDTO
 import com.sarang.torang.usecases.report.BlockUserUseCase
